@@ -1,0 +1,24 @@
+00:13:56.874  INFO  manager.ApplicationManager - All tests star in Chrome Browser
+00:13:58.288  INFO  manager.ApplicationManager - Current Url -->data:,
+00:13:59.625  INFO  tests.TestBase - The name of starts method is --->loginSuccess
+00:13:59.628  INFO  manager.ListenerWD - Before find elements --> By.xpath: //a[text()=' Logout ']
+00:14:04.712  INFO  manager.ListenerWD - After find elements --> By.xpath: //a[text()=' Logout ']
+00:14:04.713  INFO  manager.ListenerWD - List suze is --> 0
+00:14:04.715  INFO  tests.TestBase - Login with valid data :  email: 'noa@gmail.com' & password: 'Nnoa12345$' 
+00:14:04.716  INFO  manager.ListenerWD - Before find element --> By.xpath: //a[text()=' Log in ']
+00:14:04.759  INFO  manager.ListenerWD - After find element --> By.xpath: //a[text()=' Log in ']
+00:14:04.893  INFO  manager.ListenerWD - Before find element --> By.id: email
+00:14:04.942  INFO  manager.ListenerWD - After find element --> By.id: email
+00:14:05.261  INFO  manager.ListenerWD - Before find element --> By.id: password
+00:14:05.317  INFO  manager.ListenerWD - After find element --> By.id: password
+00:14:05.474  INFO  manager.ListenerWD - Before find element --> By.xpath: //button[@type='submit']
+00:14:05.511  INFO  manager.ListenerWD - After find element --> By.xpath: //button[@type='submit']
+00:14:05.610  INFO  manager.ListenerWD - Before find element --> By.cssSelector: div.dialog-container>h2
+00:14:06.860  INFO  manager.ListenerWD - After find element --> By.cssSelector: div.dialog-container>h2
+00:14:06.895  INFO  tests.TestBase - Assert check message with text --> 'Logged in success'
+00:14:06.898  INFO  manager.ListenerWD - Before find elements --> By.xpath: //button[text()='Ok']
+00:14:06.947  INFO  manager.ListenerWD - After find elements --> By.xpath: //button[text()='Ok']
+00:14:06.947  INFO  manager.ListenerWD - List suze is --> 1
+00:14:06.947  INFO  manager.ListenerWD - Before find element --> By.xpath: //button[text()='Ok']
+00:14:06.990  INFO  manager.ListenerWD - After find element --> By.xpath: //button[text()='Ok']
+00:14:07.036  INFO  tests.TestBase - Post Condition close dialog

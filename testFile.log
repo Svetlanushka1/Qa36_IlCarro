@@ -1,0 +1,67 @@
+01:49:16.817  INFO  manager.ApplicationManager - All tests star in Chrome Browser
+01:49:17.260  INFO  manager.ApplicationManager - Current Url -->data:,
+01:49:18.754  INFO  tests.TestBase - The name of starts method is --->addNewCarSuccess
+01:49:25.894  INFO  tests.TestBase - The test needs login with data User{name='null', lastName='null', email='noa@gmail.com', password='Nnoa12345$'}
+01:49:25.899  INFO  tests.TestBase - The car model for success add car test is -->Car(location=Haifa, Israel, manufacture=BMW, model=M5, year=2020, fuel=Petrol, seats=4, clasS=C, carRegNumber=555-00-1722, price=65, about=very nice car)
+01:49:29.994  INFO  tests.TestBase - The photo added by link -- '/Users/tayahatum/Qa36/Qa36_IlCarro/comaro.jpeg'
+01:49:31.161  INFO  tests.TestBase - The name of starts method is --->loginSuccess
+01:49:31.177  INFO  tests.TestBase - The name of starts method is --->registrationSuccess
+01:50:21.270  INFO  manager.ApplicationManager - All tests star in Chrome Browser
+01:50:21.834  INFO  manager.ApplicationManager - Current Url -->data:,
+01:50:23.470  INFO  tests.TestBase - The name of starts method is --->addNewCarSuccess
+01:50:30.490  INFO  tests.TestBase - The test needs login with data User{name='null', lastName='null', email='noa@gmail.com', password='Nnoa12345$'}
+01:50:30.494  INFO  tests.TestBase - The car model for success add car test is -->Car(location=Haifa, Israel, manufacture=BMW, model=M5, year=2020, fuel=Petrol, seats=4, clasS=C, carRegNumber=555-00-1639, price=65, about=very nice car)
+01:50:34.343  INFO  tests.TestBase - The photo added by link -- '/Users/tayahatum/Qa36/Qa36_IlCarro/comaro.jpeg'
+01:50:34.856  INFO  tests.TestBase - Assert check dialog with message - 'Car added'
+01:50:34.871  INFO  tests.TestBase - The name of starts method is --->loginSuccess
+01:50:34.907  INFO  tests.TestBase - The name of starts method is --->registrationSuccess
+01:51:55.940  INFO  manager.ApplicationManager - All tests star in Chrome Browser
+01:51:56.392  INFO  manager.ApplicationManager - Current Url -->data:,
+01:51:57.850  INFO  tests.TestBase - The name of starts method is --->addNewCarSuccess
+01:52:05.004  INFO  tests.TestBase - The test needs login with data User{name='null', lastName='null', email='noa@gmail.com', password='Nnoa12345$'}
+01:52:05.006  INFO  tests.TestBase - The car model for success add car test is -->Car(location=Haifa, Israel, manufacture=BMW, model=M5, year=2020, fuel=Petrol, seats=4, clasS=C, carRegNumber=555-00-1279, price=65, about=very nice car)
+01:52:09.343  INFO  tests.TestBase - The photo added by link -- '/Users/tayahatum/Qa36/Qa36_IlCarro/comaro.jpeg'
+01:52:09.915  INFO  tests.TestBase - Assert check dialog with message - 'Car added'
+01:52:09.925  INFO  tests.TestBase - The name of starts method is --->loginSuccess
+01:52:15.026  INFO  tests.TestBase - The name of starts method is --->registrationSuccess
+01:54:09.963  INFO  manager.ApplicationManager - All tests star in Chrome Browser
+01:54:10.406  INFO  manager.ApplicationManager - Current Url -->data:,
+01:54:12.012  INFO  tests.TestBase - The name of starts method is --->addNewCarSuccess
+01:54:19.017  INFO  tests.TestBase - The test needs login with data User{name='null', lastName='null', email='noa@gmail.com', password='Nnoa12345$'}
+01:54:19.022  INFO  tests.TestBase - The car model for success add car test is -->Car(location=Haifa, Israel, manufacture=BMW, model=M5, year=2020, fuel=Petrol, seats=4, clasS=C, carRegNumber=555-00-1855, price=65, about=very nice car)
+01:54:22.858  INFO  tests.TestBase - The photo added by link -- '/Users/tayahatum/Qa36/Qa36_IlCarro/comaro.jpeg'
+01:54:23.409  INFO  tests.TestBase - Assert check dialog with message - 'Car added'
+01:54:23.494  INFO  tests.TestBase - The name of starts method is --->loginSuccess
+01:54:23.791  INFO  tests.TestBase - The test needs  logout scenario
+01:54:23.792  INFO  tests.TestBase - Login with valid data :  email: 'noa@gmail.com' & password: 'Nnoa12345$' 
+01:54:25.142  INFO  tests.TestBase - Post Condition close dialog
+01:54:25.150  INFO  tests.TestBase - The name of starts method is --->loginSuccessModel
+01:54:25.616  INFO  tests.TestBase - The test needs  logout scenario
+01:54:25.618  INFO  tests.TestBase - Login with valid model :  User{name='null', lastName='null', email='noa@gmail.com', password='Nnoa12345$'}
+01:54:27.160  INFO  tests.TestBase - Assert check message with text --> 'Logged in success'
+01:54:27.239  INFO  tests.TestBase - Post Condition close dialog
+01:54:27.241  INFO  tests.TestBase - The name of starts method is --->loginWrongEmail
+01:54:27.440  INFO  tests.TestBase - The test needs  logout scenario
+01:54:27.441  INFO  tests.TestBase - Login with valid model :  User{name='null', lastName='null', email='noagmail.com', password='Nnoa12345$'}
+01:54:28.244  INFO  tests.TestBase - Assert check error message with text --> 'It'snot look like email'
+01:54:28.281  INFO  tests.TestBase - Assert check if Y'alla button not active
+01:54:33.329  INFO  tests.TestBase - Post Condition close dialog
+01:54:33.330  INFO  tests.TestBase - The name of starts method is --->loginWrongPassword
+01:54:38.364  INFO  tests.TestBase - Login with valid model :  User{name='null', lastName='null', email='noa@gmail.com', password='Nnoa1'}
+01:54:39.567  INFO  tests.TestBase - Assert check error message with text --> 'Login or Password incorrect'
+01:54:39.641  INFO  tests.TestBase - Post Condition close dialog
+01:54:39.643  INFO  tests.TestBase - The name of starts method is --->registrationSuccess
+01:54:44.674  INFO  tests.TestBase - Registration with valid model :  User{name='Lisa', lastName='Simpson', email='lisa922@mail.com', password='Lisa12345$'}
+01:54:46.685  INFO  tests.TestBase - Assert check message 'You are logged in success'
+01:54:46.775  INFO  tests.TestBase - Post Condition close dialog
+01:54:46.777  INFO  tests.TestBase - The name of starts method is --->registrationWrongEmail
+01:54:46.925  INFO  tests.TestBase - The test needs logout
+01:54:46.927  INFO  tests.TestBase - Registration with valid model :  User{name='Lisa', lastName='Simpson', email='lisamail.com', password='Lisa12345$'}
+01:54:48.492  INFO  tests.TestBase - Assert check error message with text --> 'Wrong email format'
+01:54:48.514  INFO  tests.TestBase - Assert check if Y'alla button not active
+01:54:53.538  INFO  tests.TestBase - Post Condition close dialog
+01:54:53.539  INFO  tests.TestBase - The name of starts method is --->registrationWrongPassword
+01:54:58.566  INFO  tests.TestBase - Registration with valid model :  User{name='Lisa', lastName='Simpson', email='lisa@mail.com', password='Li'}
+01:54:59.941  INFO  tests.TestBase - Assert check error message with text --> 'Password must contain'
+01:54:59.954  INFO  tests.TestBase - Assert check if Y'alla button not active
+01:55:04.995  INFO  tests.TestBase - Post Condition close dialog
