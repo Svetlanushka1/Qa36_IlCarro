@@ -1,5 +1,6 @@
 package tests;
 
+import manager.DataProviderUser;
 import model.User;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
@@ -24,6 +25,32 @@ public class LoginTests extends TestBase{
         logger.info("Login with valid data :  email: 'noa@gmail.com' & password: 'Nnoa12345$' ");
         app.getHelperUser().openFormLogin();
         app.getHelperUser().fillLoginForm("noa@gmail.com","Nnoa12345$");
+        app.getHelperUser().submit();
+        Assert.assertEquals(app.getHelperUser().getMessage(),"Logged in success");
+        logger.info("Assert check message with text --> 'Logged in success'" );
+
+    }
+
+    @Test(dataProvider = "loginData",dataProviderClass = DataProviderUser.class)
+    public void loginSuccessModelDP(User user){
+
+
+        logger.info("Login with valid model :  "+user.toString());
+        app.getHelperUser().openFormLogin();
+        app.getHelperUser().fillLoginForm(user);
+        app.getHelperUser().submit();
+        Assert.assertEquals(app.getHelperUser().getMessage(),"Logged in success");
+        logger.info("Assert check message with text --> 'Logged in success'" );
+
+    }
+
+    @Test(dataProvider = "loginDataFile",dataProviderClass = DataProviderUser.class)
+    public void loginSuccessModelDPFile(User user){
+
+
+        logger.info("Login with valid model :  "+user.toString());
+        app.getHelperUser().openFormLogin();
+        app.getHelperUser().fillLoginForm(user);
         app.getHelperUser().submit();
         Assert.assertEquals(app.getHelperUser().getMessage(),"Logged in success");
         logger.info("Assert check message with text --> 'Logged in success'" );
